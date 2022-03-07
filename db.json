@@ -1,18 +1,23 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "firstName": "Nenad",
+      "lastName": "Burnac",
+      "email": "burnacnenad@gmail",
+      "mobile": "062660690",
+      "salary": "106000,00",
+      "id": 10
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "firstName": "Marijana",
+      "lastName": "Burnac",
+      "email": "burnacMarijana@gmail",
+      "mobile": "0606337227",
+      "salary": "78000",
+      "id": 11
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

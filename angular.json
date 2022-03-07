@@ -1,9 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "3d1cd516-7594-419f-9432-deb7ffd92b7b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "employee-card-pro": {
+    "CRUDi3": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/employee-card-pro",
+            "outputPath": "dist/CRUDi3",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "employee-card-pro:build:production"
+              "browserTarget": "CRUDi3:build:production"
             },
             "development": {
-              "browserTarget": "employee-card-pro:build:development"
+              "browserTarget": "CRUDi3:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "employee-card-pro:build"
+            "browserTarget": "CRUDi3:build"
           }
         },
         "test": {
@@ -102,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "employee-card-pro"
+  "defaultProject": "CRUDi3"
 }
