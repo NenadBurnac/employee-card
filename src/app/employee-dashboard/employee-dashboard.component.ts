@@ -46,14 +46,14 @@ export class EmployeeDashboardComponent implements OnInit {
     this.api.postEmploye(this.employeeModelObj)
     .subscribe(res=>{
       console.log(res);
-      alert("Employee Added Successfully ja pisao ovo")
+      alert("Employee Added Successfully!")
       let ref = document.getElementById('cancel')
       ref?.click();
       this.formValue.reset();
       this.getAllEmployee();
     },
     err=>{
-      alert("Something Went Erong ja pisao isto")
+      alert("Something Went Wrong!!!")
     })
   }
   getAllEmployee(){
